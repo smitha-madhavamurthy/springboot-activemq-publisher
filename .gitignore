@@ -1,24 +1,21 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-
-### STS ###
-.apt_generated
+.DS_Store
+velocity.log
+velocity.log.1
 .classpath
-.factorypath
 .project
 .settings
-.springBeans
-
-### IntelliJ IDEA ###
 .idea
-*.iws
+idea
+code_cache
+target
+test-output
+src/test/resources/postman/test_output
+doc
+logs
+solrBackupTestFolder
+jmeter.log
+.mvn
 *.iml
-*.ipr
+stat.txt
+*.wiki
 
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
